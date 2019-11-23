@@ -2,260 +2,490 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>One Page Bootstrap Template</title>
 
-  <title>Creative - Start Bootstrap Theme</title>
-
-  <!-- Font Awesome Icons -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-  <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.min.css" rel="stylesheet">
-
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- =======================================================
+    Theme Name: OnePage
+    Theme URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
 
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+      <div class="row">
+        <div class="site-logo">
+          <a href="index.html" class="brand">OnePage</a>
+        </div>
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.Navbar-collapse -->
       </div>
     </div>
   </nav>
 
-  <!-- Masthead -->
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
-          <hr class="divider my-4">
+  <div id="home">
+    <div class="slider">
+      <div id="about-slider">
+        <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators visible-xs">
+            <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-slider" data-slide-to="1"></li>
+            <li data-target="#carousel-slider" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/slide1.jpg" class="img-responsive" alt="">
+            </div>
+            <div class="item">
+              <img src="images/slide2.jpg" class="img-responsive" alt="">
+            </div>
+            <div class="item">
+              <img src="images/slide3.jpg" class="img-responsive" alt="">
+            </div>
+          </div>
+
+          <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+
+          <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
         </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        <!--/#carousel-slider-->
+      </div>
+      <!--/#about-slider-->
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <div class="center">
+        <div class="col-md-6 col-md-offset-3">
+          <h2>About Us</h2>
+          <hr>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
         </div>
       </div>
     </div>
-  </header>
 
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
-      <hr class="divider my-4">
       <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <div class="col-sm-6 wow fadeInRight">
+          <img src="images/1.png" class="img-responsive" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni autem minus sint, commodi.</p>
 
-  <!-- Portfolio Section -->
+        </div>
+        <!--/.col-sm-6-->
+
+        <div class="col-sm-6 wow fadeInDown">
+          <div class="accordion">
+            <div class="panel-group" id="accordion1">
+              <div class="panel panel-default">
+                <div class="panel-heading active">
+                  <h3 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                      Web Design
+                      <i class="fa fa-angle-right pull-right"></i>
+                    </a>
+                  </h3>
+                </div>
+
+                <div id="collapseOne1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <div class="media accordion-inner">
+                      <div class="pull-left">
+                        <img class="img-responsive" src="images/accordion1.png">
+                      </div>
+                      <div class="media-body">
+                        <h4>Adipisicing elit</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                          ut labore</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                      Lorem ipsum dolor sit amet
+                      <i class="fa fa-angle-right pull-right"></i>
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseTwo1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                      laborum eiusmod. Brunch 3 wolf moon tempor.<br> Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit, sed do eiusmod tempor incididunt ut non cupidatat skateboard dolor brunch.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+                      Lorem ipsum dolor sit amet
+                      <i class="fa fa-angle-right pull-right"></i>
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseThree1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                      laborum eiusmod. Brunch 3 wolf moon tempor.<br> Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit, sed do eiusmod tempor incididunt ut non cupidatat skateboard dolor brunch.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
+                      Lorem ipsum dolor sit amet
+                      <i class="fa fa-angle-right pull-right"></i>
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseFour1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                      laborum eiusmod. Brunch 3 wolf moon tempor.<br> Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit, sed do eiusmod tempor incididunt ut non cupidatat skateboard dolor brunch.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/#accordion1-->
+          </div>
+        </div>
+
+      </div>
+      <!--/.row-->
+    </div>
+    <!--/.container-->
+  </section>
+  <!--/#about-->
+
   <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+      <div class="center">
+        <div class="col-md-6 col-md-offset-3">
+          <h2>Portfolio</h2>
+          <hr>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
         </div>
       </div>
+    </div>
+
+    <div class="container">
+      <div class="col-lg-12">
+        <ul class="portfolio-filter text-center">
+          <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
+          <li><a class="btn btn-default" href="#" data-filter=".bootstrap">Creative</a></li>
+          <li><a class="btn btn-default" href="#" data-filter=".html">Photography</a></li>
+          <li><a class="btn btn-default" href="#" data-filter=".wordpress">Web Development</a></li>
+        </ul>
+        <!--/#portfolio-filter-->
+
+        <div class="row">
+          <div class="portfolio-items">
+            <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Business theme</a></h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i>
+                      View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.portfolio-item-->
+
+            <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Business theme</a></h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i>
+                      View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.portfolio-item-->
+
+            <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Business theme</a></h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i>
+                      View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.portfolio-item-->
+
+            <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Business theme</a></h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i>
+                      View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.portfolio-item-->
+
+            <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Business theme</a></h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i>
+                      View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.portfolio-item-->
+
+            <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Business theme</a></h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i>
+                      View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.portfolio-item-->
+
+            <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Business theme</a></h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i>
+                      View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.portfolio-item-->
+
+            <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Business theme</a></h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                    <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i>
+                      View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.portfolio-item-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#portfolio-item-->
+
+  <section id="features">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
+        <div class="center">
+          <div class="col-md-6 col-md-offset-3">
+            <h2>Features</h2>
+            <hr>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut</p>
+          </div>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+
+        <div class="col-md-4 wow fadeInLeft">
+          <h3>Responsive</h3>
+          <img src="images/portfolio/recent/item4.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut non
+            cupidatat skateboard dolor brunch.</p>
+        </div>
+
+        <div class="col-md-4 wow fadeInUp">
+          <h3>Web Design</h3>
+          <img src="images/portfolio/recent/item5.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut non
+            cupidatat skateboard dolor brunch.</p>
+        </div>
+
+        <div class="col-md-4 wow fadeInRight">
+          <h3>Easy Customize</h3>
+          <img src="images/portfolio/recent/item6.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut non
+            cupidatat skateboard dolor brunch.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-light py-5">
+
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <section id="contact">
+    <div class="contact-page">
+      <div class="container">
+        <div class="center">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="row contact-wrap">
+          <div class="col-md-8 col-md-offset-2">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
+                  data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
+                  data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
+                  placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </div>
+    <!--/#contact-page-->
+  </section>
+
+  <footer id="footer" class="midnight-blue">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="text-center">
+            <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+          </div>
+          &copy; OnePage Theme. All Rights Reserved.
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=OnePage
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="top-bar">
+          <div class="col-lg-12">
+            <div class="social">
+              <ul class="social-share">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
+  <!--/#footer-->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="contactform/contactform.js"></script>
 
 </body>
 
